@@ -1,0 +1,60 @@
+@import "tailwindcss";
+@import "swiper/css" layer(components);
+@import "swiper/css/navigation" layer(components);
+@import "swiper/css/pagination" layer(components);
+
+@source "../../index.php";
+@source "../../templates";
+
+@theme {
+  --font-sans: "Geist", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --color-paper: #f5f3ef;
+  --color-paper-2: #e9e6de;
+  --color-ink: #14171c;
+  --color-graphite: #474c54;
+  --color-mute: #8a8f97;
+  --color-rule: #dedbd2;
+  --color-accent: #1d47cf;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: var(--color-ink);
+    background-color: var(--color-paper);
+    background-image:
+      linear-gradient(rgba(217, 213, 204, 0.35) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(217, 213, 204, 0.35) 1px, transparent 1px),
+      linear-gradient(rgba(184, 178, 167, 0.18) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(184, 178, 167, 0.18) 1px, transparent 1px);
+    background-size: 80px 80px, 80px 80px, 16px 16px, 16px 16px;
+    background-attachment: fixed;
+  }
+
+  section[id],
+  div[id] {
+    scroll-margin-top: 92px;
+  }
+
+  [hidden] {
+    display: none !important;
+  }
+
+  ::selection {
+    background: var(--color-accent);
+    color: #fff;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+}

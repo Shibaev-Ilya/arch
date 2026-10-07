@@ -1,0 +1,117 @@
+@layer components {
+  /* --- reveal on scroll (только при наличии JS: html.js) --- */
+  html.js .reveal {
+    opacity: 0;
+    transform: translateY(26px);
+    transition:
+      opacity 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+      transform 0.9s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--d, 0ms);
+  }
+
+  html.js .reveal--none {
+    transform: none;
+  }
+
+  html.js .reveal--left {
+    transform: translateX(-34px);
+  }
+
+  html.js .reveal--right {
+    transform: translateX(34px);
+  }
+
+  html.js .reveal--scale {
+    transform: scale(0.97);
+  }
+
+  html.js .reveal.is-in {
+    opacity: 1;
+    transform: none;
+  }
+
+  /* --- text lines --- */
+  .line-mask {
+    display: block;
+    overflow: hidden;
+  }
+
+  html.js .line-in {
+    display: block;
+    transform: translateY(115%);
+    transition: transform 1.05s cubic-bezier(0.16, 1, 0.3, 1);
+    transition-delay: var(--d, 0ms);
+  }
+
+  html.js .is-in .line-in {
+    transform: translateY(0);
+  }
+
+  /* --- drawing stroke animation --- */
+  html.js .draw {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+  }
+
+  .is-in .draw {
+    animation: drawline 1.4s cubic-bezier(0.65, 0, 0.35, 1) forwards;
+    animation-delay: var(--d, 0ms);
+  }
+
+  html.js .fade-part {
+    opacity: 0;
+  }
+
+  .is-in .fade-part {
+    animation: fadePart 0.75s ease forwards;
+    animation-delay: var(--d, 0ms);
+  }
+
+  /* --- animated underline links --- */
+  .link-underline {
+    background-image: linear-gradient(currentColor, currentColor);
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-size: 0% 1px;
+    transition: background-size 0.45s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .link-underline:hover {
+    background-size: 100% 1px;
+  }
+}
+
+@keyframes drawline {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes fadePart {
+  to {
+    opacity: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .reveal,
+  .line-in {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .draw {
+    stroke-dashoffset: 0 !important;
+    animation: none !important;
+  }
+
+  .fade-part {
+    opacity: 1 !important;
+    animation: none !important;
+  }
+}

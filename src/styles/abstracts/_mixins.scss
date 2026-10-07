@@ -1,0 +1,11 @@
+@mixin from($bp) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}
+
+@mixin until($bp) {
+  @media (max-width: $bp - 1px) {
+    @content;
+  }
+}

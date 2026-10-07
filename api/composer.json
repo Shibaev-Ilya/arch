@@ -1,0 +1,17 @@
+{
+    "name": "arch/api",
+    "description": "Backend arch.local — приём заявок с форм и отправка писем через PHPMailer",
+    "type": "project",
+    "require": {
+        "php": ">=8.4",
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arch\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}

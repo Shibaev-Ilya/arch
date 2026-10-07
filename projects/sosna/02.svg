@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" font-family="ui-monospace, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ef"/>
+      <stop offset="1" stop-color="#e9e6de"/>
+    </linearGradient>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#dedbd2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="#f5f3ef"/>
+  <rect width="1200" height="694" fill="url(#grid)" opacity="0.55"/>
+  <text x="24" y="42" fill="#8a8f97" font-size="13" letter-spacing="3">КАДР 02 · ФАСАД · ФРАГМЕНТ 1:50</text>
+  <text x="1176" y="42" fill="#1d47cf" font-size="13" letter-spacing="3" text-anchor="end">ЧД-21/23</text>
+  <g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="300" y1="96" x2="300" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="300" cy="88" r="15"/>
+    </g>
+    <text x="300" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">1</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="550" y1="96" x2="550" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="550" cy="88" r="15"/>
+    </g>
+    <text x="550" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">2</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="800" y1="96" x2="800" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="800" cy="88" r="15"/>
+    </g>
+    <text x="800" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">3</text>
+    <g fill="none" stroke="#14171c" stroke-width="2">
+      <rect x="240" y="230" width="700" height="390" fill="#f5f3ef"/>
+      <path d="M200 236l380 -128 380 128" stroke-width="2.6" fill="#e9e6de"/>
+      <path d="M580 108V66h70v58" fill="#f5f3ef"/>
+    </g>
+    <g stroke="#14171c" stroke-width="0.9" opacity="0.55">
+      <line x1="240" y1="236" x2="940" y2="236"/><line x1="240" y1="252" x2="940" y2="252"/><line x1="240" y1="268" x2="940" y2="268"/><line x1="240" y1="284" x2="940" y2="284"/><line x1="240" y1="300" x2="940" y2="300"/><line x1="240" y1="316" x2="940" y2="316"/><line x1="240" y1="332" x2="940" y2="332"/><line x1="240" y1="348" x2="940" y2="348"/><line x1="240" y1="364" x2="940" y2="364"/><line x1="240" y1="380" x2="940" y2="380"/><line x1="240" y1="396" x2="940" y2="396"/><line x1="240" y1="412" x2="940" y2="412"/><line x1="240" y1="428" x2="940" y2="428"/><line x1="240" y1="444" x2="940" y2="444"/><line x1="240" y1="460" x2="940" y2="460"/><line x1="240" y1="476" x2="940" y2="476"/><line x1="240" y1="492" x2="940" y2="492"/><line x1="240" y1="508" x2="940" y2="508"/><line x1="240" y1="524" x2="940" y2="524"/><line x1="240" y1="540" x2="940" y2="540"/><line x1="240" y1="556" x2="940" y2="556"/><line x1="240" y1="572" x2="940" y2="572"/><line x1="240" y1="588" x2="940" y2="588"/><line x1="240" y1="604" x2="940" y2="604"/>
+    </g>
+    <rect x="300" y="290" width="122" height="104" fill="#e9e6de" stroke="#14171c" stroke-width="1.4"/><line x1="300" y1="342" x2="422" y2="342" stroke="#14171c" stroke-width="0.9" opacity="0.55"/>
+    <rect x="538" y="290" width="122" height="104" fill="#e9e6de" stroke="#14171c" stroke-width="1.4"/><line x1="538" y1="342" x2="660" y2="342" stroke="#14171c" stroke-width="0.9" opacity="0.55"/>
+    <rect x="776" y="290" width="122" height="104" fill="#e9e6de" stroke="#14171c" stroke-width="1.4"/><line x1="776" y1="342" x2="898" y2="342" stroke="#14171c" stroke-width="0.9" opacity="0.55"/>
+    <rect x="300" y="470" width="122" height="104" fill="#e9e6de" stroke="#14171c" stroke-width="1.4"/><line x1="300" y1="522" x2="422" y2="522" stroke="#14171c" stroke-width="0.9" opacity="0.55"/>
+    <rect x="776" y="470" width="122" height="104" fill="#e9e6de" stroke="#14171c" stroke-width="1.4"/><line x1="776" y1="522" x2="898" y2="522" stroke="#14171c" stroke-width="0.9" opacity="0.55"/>
+    <g fill="none" stroke="#14171c" stroke-width="2">
+      <rect x="546" y="470" width="108" height="150" fill="#e9e6de"/>
+      <line x1="600" y1="470" x2="600" y2="620"/>
+    </g>
+    <line x1="150" y1="620" x2="1050" y2="620" stroke="#14171c" stroke-width="2.4"/>
+    <g stroke="#474c54" stroke-width="1" fill="#474c54" font-size="12" letter-spacing="1">
+    <line x1="171" y1="230" x2="185" y2="230"/>
+    <line x1="171" y1="620" x2="185" y2="620"/>
+    <line x1="178" y1="230" x2="178" y2="620"/>
+    <path d="M178 230l-4 9h8z" fill="#474c54" stroke="none"/>
+    <path d="M178 620l-4 -9h8z" fill="#474c54" stroke="none"/>
+    <rect x="152" y="414" width="52" height="22" fill="#f5f3ef" stroke="none"/>
+    <text x="178" y="430" text-anchor="middle" stroke="none">3,30 м</text>
+  </g>
+    <g stroke="#474c54" stroke-width="1" fill="#474c54" font-size="12" letter-spacing="1">
+    <line x1="300" y1="657" x2="300" y2="671"/>
+    <line x1="422" y1="657" x2="422" y2="671"/>
+    <line x1="300" y1="664" x2="422" y2="664"/>
+    <path d="M300 664l9 -4v8z" fill="#474c54" stroke="none"/>
+    <path d="M422 664l-9 -4v8z" fill="#474c54" stroke="none"/>
+    <rect x="327" y="653" width="68" height="22" fill="#f5f3ef" stroke="none"/>
+    <text x="361" y="669" text-anchor="middle" stroke="none">1,30 м</text>
+  </g>
+    <g stroke="#1d47cf" stroke-width="1" fill="#1d47cf" font-size="12" letter-spacing="1">
+    <line x1="600" y1="150" x2="878" y2="96"/>
+    <circle cx="600" cy="150" r="3" fill="#f5f3ef" stroke="#1d47cf"/>
+    <rect x="884" y="83" width="120.39999999999999" height="24" fill="#f5f3ef" stroke="#1d47cf" stroke-width="1"/>
+    <text x="891" y="100" stroke="none">БРУС 200 × 200</text>
+  </g>
+  <rect x="0" y="694" width="1200" height="56" fill="#e9e6de"/>
+  <line x1="0" y1="694" x2="1200" y2="694" stroke="#14171c" stroke-width="1.5"/>
+  <text x="24" y="718" fill="#14171c" font-size="13" letter-spacing="2">Дом «Сосна»</text>
+  <text x="24" y="738" fill="#8a8f97" font-size="11" letter-spacing="2">КЛЕЁНЫЙ БРУС · 210 м²</text>
+  <text x="1176" y="718" fill="#474c54" font-size="12" letter-spacing="2" text-anchor="end">БЮРО «ОСЬ» · ЧД-21/23</text>
+  <text x="1176" y="738" fill="#8a8f97" font-size="11" letter-spacing="2" text-anchor="end">ЛИСТ 02 · М 1:100</text>
+</svg>

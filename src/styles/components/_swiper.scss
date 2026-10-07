@@ -1,0 +1,36 @@
+@layer components {
+  /* --- reviews carousel (Swiper) --- */
+  .reviews__swiper {
+    margin-top: 1.5rem;
+  }
+
+  .reviews__dots {
+    position: static !important;
+    width: auto;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    text-align: start;
+  }
+
+  .reviews__dots .swiper-pagination-bullet {
+    width: 16px;
+    height: 3px;
+    margin: 0 !important;
+    border-radius: 0;
+    opacity: 1;
+    background: var(--color-rule);
+    transition: all 0.3s ease;
+  }
+
+  .reviews__dots .swiper-pagination-bullet:hover {
+    background: var(--color-ink);
+  }
+
+  .reviews__dots .swiper-pagination-bullet-active {
+    width: 32px;
+    background: var(--color-accent);
+  }
+}

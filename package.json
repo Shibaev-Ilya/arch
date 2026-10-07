@@ -1,0 +1,20 @@
+{
+  "name": "arch",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "gen:images": "node scripts/gen-project-images.mjs"
+  },
+  "dependencies": {
+    "swiper": "^14.3.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "sass": "^1.105.1",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.3"
+  }
+}

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750" font-family="ui-monospace, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5f3ef"/>
+      <stop offset="1" stop-color="#e9e6de"/>
+    </linearGradient>
+    <pattern id="grid" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M100 0H0V100" fill="none" stroke="#dedbd2" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="750" fill="#f5f3ef"/>
+  <rect width="1200" height="694" fill="url(#grid)" opacity="0.55"/>
+  <text x="24" y="42" fill="#8a8f97" font-size="13" letter-spacing="3">КАДР 02 · ФАСАД · ФРАГМЕНТ 1:50</text>
+  <text x="1176" y="42" fill="#1d47cf" font-size="13" letter-spacing="3" text-anchor="end">ПР-07/23</text>
+  <g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="240" y1="96" x2="240" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="240" cy="88" r="15"/>
+    </g>
+    <text x="240" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">1</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="390" y1="96" x2="390" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="390" cy="88" r="15"/>
+    </g>
+    <text x="390" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">2</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="540" y1="96" x2="540" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="540" cy="88" r="15"/>
+    </g>
+    <text x="540" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">3</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="690" y1="96" x2="690" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="690" cy="88" r="15"/>
+    </g>
+    <text x="690" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">4</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="840" y1="96" x2="840" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="840" cy="88" r="15"/>
+    </g>
+    <text x="840" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">5</text><g stroke="#1d47cf" stroke-width="1" stroke-dasharray="10 7" opacity="0.85">
+      <line x1="990" y1="96" x2="990" y2="598"/>
+    </g>
+    <g fill="#f5f3ef" stroke="#1d47cf" stroke-width="1.4">
+      <circle cx="990" cy="88" r="15"/>
+    </g>
+    <text x="990" y="93" fill="#1d47cf" font-size="13" text-anchor="middle">6</text>
+    <g fill="none" stroke="#14171c" stroke-width="2">
+      <rect x="170" y="250" width="860" height="370" fill="#f5f3ef"/>
+      <path d="M140 256l460 -130 460 130" stroke-width="2.6" fill="#e9e6de"/>
+      <path d="M600 126v394" stroke-width="1.4" opacity="0.6"/>
+    </g>
+    <g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="200" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="200" y1="404" x2="310" y2="404" stroke-width="0.9"/><line x1="200" y1="440" x2="310" y2="440" stroke-width="0.9"/><line x1="200" y1="476" x2="310" y2="476" stroke-width="0.9"/><line x1="200" y1="512" x2="310" y2="512" stroke-width="0.9"/><line x1="200" y1="548" x2="310" y2="548" stroke-width="0.9"/><line x1="200" y1="584" x2="310" y2="584" stroke-width="0.9"/>
+      </g><g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="350" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="350" y1="404" x2="460" y2="404" stroke-width="0.9"/><line x1="350" y1="440" x2="460" y2="440" stroke-width="0.9"/><line x1="350" y1="476" x2="460" y2="476" stroke-width="0.9"/><line x1="350" y1="512" x2="460" y2="512" stroke-width="0.9"/><line x1="350" y1="548" x2="460" y2="548" stroke-width="0.9"/><line x1="350" y1="584" x2="460" y2="584" stroke-width="0.9"/>
+      </g><g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="500" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="500" y1="404" x2="610" y2="404" stroke-width="0.9"/><line x1="500" y1="440" x2="610" y2="440" stroke-width="0.9"/><line x1="500" y1="476" x2="610" y2="476" stroke-width="0.9"/><line x1="500" y1="512" x2="610" y2="512" stroke-width="0.9"/><line x1="500" y1="548" x2="610" y2="548" stroke-width="0.9"/><line x1="500" y1="584" x2="610" y2="584" stroke-width="0.9"/>
+      </g><g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="650" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="650" y1="404" x2="760" y2="404" stroke-width="0.9"/><line x1="650" y1="440" x2="760" y2="440" stroke-width="0.9"/><line x1="650" y1="476" x2="760" y2="476" stroke-width="0.9"/><line x1="650" y1="512" x2="760" y2="512" stroke-width="0.9"/><line x1="650" y1="548" x2="760" y2="548" stroke-width="0.9"/><line x1="650" y1="584" x2="760" y2="584" stroke-width="0.9"/>
+      </g><g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="800" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="800" y1="404" x2="910" y2="404" stroke-width="0.9"/><line x1="800" y1="440" x2="910" y2="440" stroke-width="0.9"/><line x1="800" y1="476" x2="910" y2="476" stroke-width="0.9"/><line x1="800" y1="512" x2="910" y2="512" stroke-width="0.9"/><line x1="800" y1="548" x2="910" y2="548" stroke-width="0.9"/><line x1="800" y1="584" x2="910" y2="584" stroke-width="0.9"/>
+      </g><g fill="none" stroke="#14171c" stroke-width="1.8">
+        <rect x="950" y="404" width="110" height="216" fill="#e9e6de"/>
+        <line x1="950" y1="404" x2="1060" y2="404" stroke-width="0.9"/><line x1="950" y1="440" x2="1060" y2="440" stroke-width="0.9"/><line x1="950" y1="476" x2="1060" y2="476" stroke-width="0.9"/><line x1="950" y1="512" x2="1060" y2="512" stroke-width="0.9"/><line x1="950" y1="548" x2="1060" y2="548" stroke-width="0.9"/><line x1="950" y1="584" x2="1060" y2="584" stroke-width="0.9"/>
+      </g>
+    <line x1="120" y1="620" x2="1080" y2="620" stroke="#14171c" stroke-width="2.4"/>
+    <g stroke="#474c54" stroke-width="1" fill="#474c54" font-size="12" letter-spacing="1">
+    <line x1="101" y1="250" x2="115" y2="250"/>
+    <line x1="101" y1="620" x2="115" y2="620"/>
+    <line x1="108" y1="250" x2="108" y2="620"/>
+    <path d="M108 250l-4 9h8z" fill="#474c54" stroke="none"/>
+    <path d="M108 620l-4 -9h8z" fill="#474c54" stroke="none"/>
+    <rect x="82" y="424" width="52" height="22" fill="#f5f3ef" stroke="none"/>
+    <text x="108" y="440" text-anchor="middle" stroke="none">6,00 м</text>
+  </g>
+    <g stroke="#474c54" stroke-width="1" fill="#474c54" font-size="12" letter-spacing="1">
+    <line x1="200" y1="657" x2="200" y2="671"/>
+    <line x1="310" y1="657" x2="310" y2="671"/>
+    <line x1="200" y1="664" x2="310" y2="664"/>
+    <path d="M200 664l9 -4v8z" fill="#474c54" stroke="none"/>
+    <path d="M310 664l-9 -4v8z" fill="#474c54" stroke="none"/>
+    <rect x="221" y="653" width="68" height="22" fill="#f5f3ef" stroke="none"/>
+    <text x="255" y="669" text-anchor="middle" stroke="none">4,00 м</text>
+  </g>
+    <g stroke="#1d47cf" stroke-width="1" fill="#1d47cf" font-size="12" letter-spacing="1">
+    <line x1="760" y1="300" x2="890" y2="150"/>
+    <circle cx="760" cy="300" r="3" fill="#f5f3ef" stroke="#1d47cf"/>
+    <rect x="896" y="137" width="135.6" height="24" fill="#f5f3ef" stroke="#1d47cf" stroke-width="1"/>
+    <text x="903" y="154" stroke="none">ВОРОТА 4,0 × 4,5</text>
+  </g>
+  <rect x="0" y="694" width="1200" height="56" fill="#e9e6de"/>
+  <line x1="0" y1="694" x2="1200" y2="694" stroke="#14171c" stroke-width="1.5"/>
+  <text x="24" y="718" fill="#14171c" font-size="13" letter-spacing="2">Реконструкция склада</text>
+  <text x="24" y="738" fill="#8a8f97" font-size="11" letter-spacing="2">МЕТАЛЛОКАРКАС · 3 200 м²</text>
+  <text x="1176" y="718" fill="#474c54" font-size="12" letter-spacing="2" text-anchor="end">БЮРО «ОСЬ» · ПР-07/23</text>
+  <text x="1176" y="738" fill="#8a8f97" font-size="11" letter-spacing="2" text-anchor="end">ЛИСТ 02 · М 1:100</text>
+</svg>
