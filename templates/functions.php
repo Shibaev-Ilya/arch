@@ -12,7 +12,7 @@ function pad2(int $n): string
     return sprintf('%02d', $n);
 }
 
-/** @return array<mixed> */
+/** @return array **/
 function data(string $name): array
 {
     static $cache = [];

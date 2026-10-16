@@ -18,9 +18,6 @@ $description ??= 'Проектирую здания под ключ: архит�
 <meta name="description" content="<?= e($description) ?>">
 <meta name="theme-color" content="#f5f3ef">
 <link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&family=Geist:wght@100..900&display=swap">
 <?= vite_tags() ?>
 <noscript>
   <style>
